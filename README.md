@@ -1,27 +1,71 @@
-# K8tools 20190308
+# K8tools 20190403
 
 声明: 工具仅供安全研究或授权渗透，非法用途后果自负。<br>
 博客: https://www.cnblogs.com/k8gege<br>
 下载: https://github.com/k8gege/K8tools<br>
 密码: k8gege k8team K8team<br>
 
+PS: 不定期更新,文件比较大，可按需下载。<br>
+提权工具均可在远控cmd或WebShell下运行，大部份经过修改重新编译兼容性稳定性比网上要好<br>
 <H3>综合工具</H3>
 [+] 综合工具 K8飞刀Final.rar<br>
-<H3>免杀工具</H3>
-[+] 免杀工具 K8_SC_ENCODE(CS & Msf免杀工具).rar<br>
-[+] 测试工具 K8shellcodeLoader.exe Shellcode测试<br>
-[+] 免杀工具 K8随机免杀花指令生成器V2.0.exe<br>
-[+] 免杀工具 K8数字签名添加器.exe<br>
-[+] 捆绑工具 K8免杀系统自带捆绑器加强版V2.0.EXE<br>
-<H3>扫描工具</H3>
-[+] 扫描工具 K8_C段旁注工具6.0<br>
-[+] 扫描工具 cping3.0.rar 大型内外网渗透扫描工具<br>
-[+] 扫描工具 s加强版.exe<br>
-[+] 扫描工具 K8openssl批量 Bat版.rar<br>
-[+] 扫描工具 K8破壳SMTP Bat版.rar<br>
-[+] 扫描工具 WPdetection.exe WordPress站点信息获取<br>
-[+] 扫描工具 K8-S2批量.rar Struts2批量工具<br>
-[+] 扫描工具 smbcheck.exe MS17-010漏洞检测，cping、cscan批量专用<br>
+[+] K8data.mdb K8飞刀漏洞数据库20190402<br>
+[+] K8expList.txt K8飞刀漏洞利用列表<br>
+<H3>提权工具</H3>
+[+] 提权工具 iislpe.exe  IIS全版本提权(仅限IIS帐户、服务帐户)<br>
+[+] 提权工具 pr.exe pr有参版 pr0无参版（巴西烤肉:国内10年所说的PR或IIS6提权）<br>
+[+] 提权工具 k8uac_20181125[K8].rar 目前还支持全版本WIN7-Win10<br>
+[+] 提权工具 bypassUAC_Win7_10[K8team].rar  13还是15年？Win10打补丁失效<br>
+[+] 提权工具 bypassUACexe_0419[K8].rar  13年的吧 打补丁的WIN7好像不支持了<br>
+[+] 提权工具 Lpk提权_K8.rar   DLLHijack<br>
+[+] 提权工具 Usp10提权_K8.rar  DLLHijack<br>
+[+] 提权工具 MS11-046.exe <br>
+[+] 提权工具 MS11-080.exe <br>
+[+] 提权工具 MS14-068 EXP域内提权神器.rar<br>
+[+] 提权工具 MS15-010提权[K8team]_20150603.rar<br>
+[+] 提权工具 MS15-051提权 CVE-2015-1701_20150525[K8].rar<br>
+[+] 提权工具 MS15-077提权工具[K8].rar<br>
+[+] 提权工具 MS16-016提权EXP[K8].rar<br>
+[+] 提权工具 Windows Win32k.sys EPATHOBJ 0day Exploit 提权工具 [K8team].rar<br>
+[+] 提权工具  k8downexec.mof<br>
+[+] 提权工具  k8zzz.rar SMB溢出 支持执行自定义exe程序<br>
+[+] 提权工具  udf.dll MYSQL udf提权DLL<br>
+[+] 提权工具  ws2help提权_K8.rar<br>
+[+] 提权工具  卡巴6.0.2.614提权.exe<br>
+[+] 提权工具  小红伞 Avira avipbb.sys 提权Exploit_1024[K8].rar<br>
+[+] 提权工具  提权Admin2SystemRun_0419[K8].rar<br>
+[+] 提权工具  提权GetTrustedInstaller_0419[K8].rar<br>
+[+] 提权工具  降权System2AdminRun_0419[K8].rar<br>
+[+] 提权工具  无NET添加用户提权_20140511[K8].rar<br>
+[+] 提权工具 K8_VBS提权脚本免杀生成器.rar<br>
+[+] 进程注入 DLL注入进程工具过UAC<br>
+[+] 提权工具 NV显卡提权NVexploit.rar<br>
+[+] 提权工具 net2.0day.exe<br>
+[+] 提权工具 K8dllhijack.rar DLL却持测试工具<br>
+[+] 提权工具 Invoke-MS16-032.ps1<br>
+[+] Apache 2.2.1.4 mod_isapi exploit.rar<br>
+
+<H3>漏洞利用</H3>
+[+] 漏洞利用 K8飞刀-EXPLOIT内含20个程序EXP（Drupal、Joomla、Wordpress、Vbulletin、Xampp、Zimbra、ThinkPHP、Magento、Discuz）<br>
+[+] 漏洞利用 K8_Struts2_EXP (S2-045、devMode、S2-037、S2-032、S2-020、S2-019、S2-016、S2-013、S2-009、S2-005)<br>
+[+] 漏洞利用 K8_JbossExp.exe Jboss Jmx-console exploit<br>
+[+] 漏洞利用 K8 DotNetNuke DNNspot Store =3.0 GetShell exploit.rar<br>
+[+] 漏洞利用 CVE-2018-2628 Weblogic GetShell EXPLOIT<br>
+[+] 漏洞利用 ColdFusion 8 LFI EXP<br>
+[+] 漏洞利用 K8_TomcatExp_1124[K.8].rar<br>
+[+] 漏洞利用 WordPress 4.2 XSS 0day 20150429[K.8].rar<br>
+[+] 漏洞利用 k8_zabbix_exp_20160820[K.8].rar<br>
+
+<H3>漏洞利用</H3>
+[+] 漏洞利用 K8飞刀-EXPLOIT内含20个程序EXP（Drupal、Joomla、Wordpress、Vbulletin、Xampp、Zimbra、ThinkPHP、Magento、Discuz）<br>
+[+] 漏洞利用 K8_Struts2_EXP (S2-045、devMode、S2-037、S2-032、S2-020、S2-019、S2-016、S2-013、S2-009、S2-005)<br>
+[+] 漏洞利用 K8 DotNetNuke DNNspot Store =3.0 GetShell exploit.rar<br>
+[+] 漏洞利用 CVE-2018-2628 Weblogic GetShell EXPLOIT<br>
+[+] 漏洞利用 ColdFusion 8 LFI EXP<br>
+[+] 漏洞利用 K8_TomcatExp_1124[K.8].rar<br>
+[+] 漏洞利用 WordPress 4.2 XSS 0day 20150429[K.8].rar<br>
+[+] 漏洞利用 k8_zabbix_exp_20160820[K.8].rar<br>
+
 <H3>漏洞利用</H3>
 [+] 漏洞利用 K8飞刀-EXPLOIT内含20个程序EXP（Drupal、Joomla、Wordpress、Vbulletin、Xampp、Zimbra、ThinkPHP、Magento、Discuz）<br>
 [+] 漏洞利用 K8_Struts2_EXP (S2-045、devMode、S2-037、S2-032、S2-020、S2-019、S2-016、S2-013、S2-009、S2-005)<br>
@@ -47,6 +91,12 @@
 [+] 漏洞环境 k8bbs(php+mysql)注入漏洞环境.rar<br>
 [+] 漏洞环境 K8 SQL强化练习工具V1.0_20190301[K8].rar<br>
 [+] 漏洞环境 K8迷你ASP服务器.exe 绿色一键启动<br>
+<H3>免杀工具</H3>
+[+] 免杀工具 K8_SC_ENCODE(CS & Msf免杀工具).rar<br>
+[+] 测试工具 K8shellcodeLoader.exe Shellcode测试<br>
+[+] 免杀工具 K8随机免杀花指令生成器V2.0.exe<br>
+[+] 免杀工具 K8数字签名添加器.exe<br>
+[+] 捆绑工具 K8免杀系统自带捆绑器加强版V2.0.EXE<br>
 <H3>远控后门</H3>
 [+] 远控后门 K8_Gh0st_Bin.rar 不免杀漏洞测试上线用<br>
 [+] 远控后门 TeamServer.exe  CS中转Win版,无需Kali下生成cobaltstrike.store文件<br>
@@ -57,7 +107,27 @@
 [+] 远控后门 K8手机远控电脑V1.1_20121020[K.8].rar<br>
 [+] 远控后门 JspShellExec CMD下JSP一句话连接工具<br>
 [+] 捆绑工具 K8_rarBind.rar RAR捆绑工具<br>
-<H3>脱库工具</H3>
+<H3>嗅探工具</H3>
+[+] 嗅探工具 K8getPC.py 内网存活主机探测(无需端口\无视防火墙)<br>
+<H3>扫描工具</H3>
+[+] 扫描插件 K8Cscan Moudle FtpScan.rar Ftp密码扫描插件<br>
+[+] 扫描插件 K8Cscan Moudle MysqlScan.rar Mysql密码扫描插件<br>
+[+] 扫描插件 K8Cscan Moudle OnlinePC.rar 存活主机扫描插件<br>
+[+] 扫描插件 K8Cscan Moudle WebBanner.rar WebBanner标题扫描插件<br>
+[+] 扫描插件 K8Cscan Moudle WmiScan.rar Wmi扫描Win系统密码插件<br>
+[+] 扫描工具 K8Cscan for SameWeb.rar C段旁站扫描工具<br>
+[+] 扫描工具 K8Cscan for SubDomain.rar 子域名扫描工具<br>
+[+] 扫描工具 K8Cscan 3.1.rar 高效内网渗透扫描工具<br>
+[+] 扫描工具 cping3.0.rar 大型内外网渗透扫描工具<br>
+[+] 扫描工具 K8_C段旁注工具6.0<br>
+[+] 扫描工具 s加强版.exe<br>
+[+] 扫描工具 K8openssl批量 Bat版.rar<br>
+[+] 扫描工具 K8破壳SMTP Bat版.rar<br>
+[+] 扫描工具 WPdetection.exe WordPress站点信息获取<br>
+[+] 扫描工具 K8-S2批量.rar Struts2批量工具<br>
+[+] 扫描工具 smbcheck.exe MS17-010漏洞检测，cping、cscan批量专用<br>
+<H3>数据库</H3>
+[+] 脱库工具 K8mysqlCmd.rar Mysql数据库免驱连接工具<br>
 [+] 脱库工具 K8_mysql脱裤20170114(千万).php<br>
 [+] 脱库工具 K8Packwebshell.aspx 整站打包工具<br>
 [+] 脱库工具 K8outSQL.aspx MSSQL导库工具<br>
@@ -90,40 +160,9 @@
 [+] 安全工具 K8驱动防止WebShell提权工具.rar (就是说无法通过WEBSHELL执行任意命令,就算有签名的EXE也不行)<br>
 [+] 辅助工具 K8注册表跳转.exe<br>
 [+] 转发代理 K8PortMap.exe<br>
-<H3>提权工具</H3>
-[+] 提权工具 iislpe.exe  IIS全版本提权(仅限IIS帐户、服务帐户)<br>
-[+] 提权工具 pr.exe pr有参版 pr0无参版（巴西烤肉:国内10年所说的PR或IIS6提权）<br>
-[+] 提权工具 k8uac_20181125[K8].rar 目前还支持全版本WIN7-Win10<br>
-[+] 提权工具 bypassUAC_Win7_10[K8team].rar  13还是15年？Win10打补丁失效<br>
-[+] 提权工具 bypassUACexe_0419[K8].rar  13年的吧 打补丁的WIN7好像不支持了<br>
-[+] 提权工具 Lpk提权_K8.rar   DLLHijack<br>
-[+] 提权工具 Usp10提权_K8.rar  DLLHijack<br>
-[+] 提权工具 MS11_46提权_K8.rar<br>
-[+] 提权工具 MS11_80提权_K8.rar<br>
-[+] 提权工具 MS14068 EXP域内提权神器.rar<br>
-[+] 提权工具 MS15-010提权[K8team]_20150603.rar<br>
-[+] 提权工具 MS15-051提权 CVE-2015-1701_20150525[K8].rar<br>
-[+] 提权工具 MS15-077提权工具[K8].rar<br>
-[+] 提权工具 MS16-016提权EXP[K8].rar<br>
-[+] 提权工具 Windows Win32k.sys EPATHOBJ 0day Exploit 提权工具 [K8team].rar<br>
-[+] 提权工具  k8downexec.mof<br>
-[+] 提权工具  k8zzz.rar SMB溢出 支持执行自定义exe程序<br>
-[+] 提权工具  udf.dll MYSQL udf提权DLL<br>
-[+] 提权工具  ws2help提权_K8.rar<br>
-[+] 提权工具  卡巴6.0.2.614提权.exe<br>
-[+] 提权工具  小红伞 Avira avipbb.sys 提权Exploit_1024[K8].rar<br>
-[+] 提权工具  提权Admin2SystemRun_0419[K8].rar<br>
-[+] 提权工具  提权GetTrustedInstaller_0419[K8].rar<br>
-[+] 提权工具  降权System2AdminRun_0419[K8].rar<br>
-[+] 提权工具  无NET添加用户提权_20140511[K8].rar<br>
-[+] 提权工具 K8_VBS提权脚本免杀生成器.rar<br>
-[+] 进程注入 DLL注入进程工具过UAC<br>
-[+] 提权工具 NV显卡提权NVexploit.rar<br>
-[+] 提权工具 net2.0day.exe<br>
-[+] 提权工具 K8dllhijack.rar DLL却持测试工具<br>
-[+] 提权工具 Invoke-MS16-032.ps1
-[+] Apache 2.2.1.4 mod_isapi exploit.rar<br>
+
 <H3>WebShell</H3>
+[+] 转换工具 k8exe2bat.exe 任意文件转Bat工具(WebShell无法上传EXE解决方案)<br>
 [+] 上传工具 K8upload_1125[K8].rar 新型小马上传工具支持任意文件(内置asp\php\jsp小马)<br>
 [+] 连接工具 K8一句话ASP木马客户端加强程序版.exe<br>
 [+] WebShell k8cmd.ascx<br>
@@ -146,3 +185,11 @@
 [+]系统美化 k8cmd.exe<br>
 [+]辅助工具 K8侠盗猎车4外挂.exe<br>
 [+]辅助工具 K8迅雷、快车、旋风地址互换工具.exe<br>
+
+<H3>关于提权工具</H3>
+提权工具均可在远控cmd或WebShell下运行，大部份经过修改重新编译兼容性稳定性比网上要好<br>
+至少不像别人那样单纯收集POC或转载个带后门的放出来,有些人说这些网上都有源码那你自行编译吧<br>
+先不说那些只弹CMD的POC，实战中你都有权限操作目标桌面?提个权要弹出CMD?然后在上面打指令？<br>
+最主要一点是你拿到权限一定有桌面？你的远控有远程桌面功能？你在虚拟机里提权还是去网吧提权？<br>
+弹CMD的POC，90%必须USER以上权限才可以使用，更别说服务用户下不能使用创建带窗体进程的API<br>
+说得更明白就是很多POC在webshell下特别是IIS用户\网络服务根本无法运行,能运行也无法弹CMD窗体<br>
